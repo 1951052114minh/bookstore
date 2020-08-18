@@ -1,0 +1,65 @@
+body > nav{
+    background-color:lightblue;
+}
+/*CSS nav*/
+ul.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.ngang{
+    display: flex;
+}
+ul.menu > li{
+    min-width: 200px;
+    text-align: center;
+    border-right: 1px solid darkblue;
+}
+ul.menu > li > a{
+    display: block;
+    padding: 15px 10px;
+    text-decoration: none;
+}
+ul.menu > li > a:hover{
+    background-color: darkblue;
+    color: white;
+}
+/*CSS div*/
+section.content{
+    display: flex;
+}
+div.left{
+    width: 20%;
+}
+div.right{
+    width: 20%;
+}
+ul.doc > li{
+    text-align: left;
+}
+ul.doc > li > a{
+    background: linear-gradient(blue, lightblue);
+    color: white;
+}
+div.books{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.book{
+    width: 20%;
+    text-align: center;
+    padding: 1%;
+}
+figure{
+    margin: 0;
+}
+figure > img {
+    width: 100%;
+}
+/*header*/
+div.col10{
+
+}
+div.col30{
+    
+}
